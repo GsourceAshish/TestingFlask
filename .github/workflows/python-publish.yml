@@ -21,7 +21,3 @@ jobs:
            #   DOCKER_REGISTRY: ${{ secrets.DOCKER_REGISTRY }}
           - name: Start env
             run: docker-compose up
-          - name: Run tests
-            run: ...
-		
-		
